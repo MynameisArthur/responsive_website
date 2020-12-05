@@ -18,8 +18,33 @@
     align-items: center;
     height: 100%;
 }
+.card {
+    background-color: #fff;
+    color: #333333;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
+}
 .text-center {
     text-align: center;
+}
+
+.alert {
+    background-color: var(--light-color);
+    padding: 10px 20px;
+    margin: 15px 0;
+    i {
+        margin-right: 10px;
+    }
+}
+.alert-success {
+    background-color: var(--success-color);
+    color: #ffffff;
+}
+.alert-error {
+    background-color: var(--error-color);
+    color: #ffffff;
 }
 .my-1 {
     margin: 1rem 0;
@@ -116,6 +141,20 @@
     background-color: var(--light-color);
     color: #333;
 }
+// Text Colors
+.text-primary {
+    color: var(--primary-color);
+}
+.text-secondary {
+    color: var(--secondary-color);
+}
+.text-dark {
+    color: var(--dark-color);
+}
+.text-light {
+    color: var(--light-color);
+}
+
 .lead {
     font-size: 20px;
 }
