@@ -230,7 +230,10 @@ pre {
         }
     }
 }
-
+.hidden {
+    visibility: hidden;
+    height: 0;
+}
 // Animations
 @keyframes slideInFromLeft {
     0% {
